@@ -97,24 +97,11 @@ export const links: MenuItemsType[] = [
         type: DropdownMenuItemType.DIVIDER,
       },
       {
-        label: "NFT Collectibles",
-        href: "/",
-      },
-      {
         label: "Team Leaderboard",
         href: "/",
       },
       {
         type: DropdownMenuItemType.DIVIDER,
-      },
-      {
-        label: "Blog",
-        href: "/",
-      },
-      {
-        label: "Docs & Guides",
-        href: "/",
-        type: DropdownMenuItemType.EXTERNAL_LINK,
       },
     ],
   },
@@ -146,12 +133,7 @@ export const userMenulinks: DropdownMenuItems[] = [
   {
     label: "Profile",
     href: "/profile",
-  },
-  {
-    type: DropdownMenuItemType.EXTERNAL_LINK,
-    href: "https://app.respct.club",
-    label: "Link",
-  },
+  }, 
   {
     type: DropdownMenuItemType.DIVIDER,
   },

@@ -126,7 +126,7 @@ const Menu: React.FC<NavProps> = ({
   return (
     <Wrapper>
       <FixedContainer showMenu={showMenu} height={totalTopMenuHeight}>
-        {banner && <TopBannerContainer height={topBannerHeight}>{banner}</TopBannerContainer>}
+         <h3  >HarrisDefi</h3>
         <StyledNav>
           <Flex>
             <Logo isDark={isDark} href={homeLink?.href ?? "/"} />
